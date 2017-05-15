@@ -1,0 +1,9 @@
+Git
++Tao Repo: My 1st Ruby Project
++Tao 3 branch khac nhau tu branch master:
+	-git checkout -b <ten branch> //tao ra branch moi tu chinh branch hien tai (master)
+		>master
+		>Test (Chuyen de store cac tai lieu text, pdf ...)
+		>TestApp (Chua cac file code ruby tu lam)
+	-git branch //check branch list va branch hien tai dang o
++thuc hien checkout va su dung cac branch khac nhau
