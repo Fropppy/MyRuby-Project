@@ -7,3 +7,11 @@ Git
 		>TestApp (Chua cac file code ruby tu lam)
 	-git branch //check branch list va branch hien tai dang o
 +thuc hien checkout va su dung cac branch khac nhau
+	-git add . (Ghi lai toan bo thay doi tren branch vao index de cho dc commit)
+	-git commit --amend --no-edit (commit thay doi len local Repository)
++neu muon luu thay doi len tren server nguoi dung p pull lai du lieu tu tren remote ve de merge neu ko co conflict thi co the thuc hien push len server
+	-git pull origin Test (pull du lieu remote cua branch Test)
+	-git push origin Test (day cac thay doi cua local len server sau do co the len web cua git de kiem tra su thay doi)
+	-git log (kiem tra log cua tat ca commit da thuc hien)
+*Chu y: + muon thuc hien push len server nguoi dung p pull toan bo branch ve de luu trang thai thay doi cua remote khi remote vaf local o cung trang thai thi nguoi dung moi co the hien hanh push thay doi moi len)
+		+ neu tren remote da cho 1 push tu local len tu 1 branch khac va cung chung cac file dang chinh sua thi phai doi sang branch vua push trc do thay doi lai phan chinh sua de khong bij conflict voi thay doi ben branch muon up sau do tro lai branch chinh va pull lai thay doi ve
